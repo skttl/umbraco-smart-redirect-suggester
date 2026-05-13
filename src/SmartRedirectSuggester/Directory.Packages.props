@@ -1,0 +1,17 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <!-- Allow floating versions so extensions can align with the host Umbraco project's package versions -->
+    <CentralPackageFloatingVersionsEnabled>true</CentralPackageFloatingVersionsEnabled>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Umbraco API packages - Used by extension templates -->
+    <PackageVersion Include="Umbraco.Cms.Api.Common" Version="17.3.5" />
+    <PackageVersion Include="Umbraco.Cms.Api.Management" Version="17.3.5" />
+    <PackageVersion Include="Umbraco.Cms.Web.Common" Version="17.3.5" />
+    <PackageVersion Include="Umbraco.Cms.Web.Website" Version="17.3.5" />
+    <!-- Umbraco Search abstractions (beta). Used to resolve the AI vector searcher provided by Umbraco.AI.Search. -->
+    <PackageVersion Include="Umbraco.Cms.Search.Core" Version="1.0.0-beta.5" />
+  </ItemGroup>
+</Project>
