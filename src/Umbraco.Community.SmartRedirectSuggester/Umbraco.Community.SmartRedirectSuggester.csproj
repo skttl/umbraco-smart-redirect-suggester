@@ -16,8 +16,8 @@
     <PackageTags>umbraco;umbraco-marketplace;redirects;seo;backoffice;search;url-tracking</PackageTags>
     <Authors>Søren Kottal</Authors>
     <Copyright>$([System.DateTime]::UtcNow.ToString(`yyyy`)) © Søren Kottal</Copyright>
-    <PackageProjectUrl>https://github.com/skttl/umbraco-smartredirectsuggester</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/skttl/umbraco-smartredirectsuggester</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/skttl/umbraco-smart-redirect-suggester</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/skttl/umbraco-smart-redirect-suggester</RepositoryUrl>
     <PackageReadmeFile>MARKETPLACE-README.md</PackageReadmeFile>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

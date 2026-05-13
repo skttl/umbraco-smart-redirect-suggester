@@ -73,5 +73,5 @@ The service tries `UmbAI_Search` first and falls back to `Umb_Content`. If neith
 
 For more information, see:
 
-- Repository overview: https://github.com/skttl/umbraco-smartredirectsuggester
+- Repository overview: https://github.com/skttl/umbraco-smart-redirect-suggester
 - Installation guide: https://github.com/skttl/umbraco-smart-redirect-suggester/blob/main/docs/installation.md

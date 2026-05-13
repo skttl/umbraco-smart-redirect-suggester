@@ -2,7 +2,7 @@
 
 [![Downloads](https://img.shields.io/nuget/dt/Umbraco.Community.SmartRedirectSuggester?color=cc9900)](https://www.nuget.org/packages/Umbraco.Community.SmartRedirectSuggester/)
 [![NuGet](https://img.shields.io/nuget/vpre/Umbraco.Community.SmartRedirectSuggester?color=0273B3)](https://www.nuget.org/packages/Umbraco.Community.SmartRedirectSuggester)
-[![GitHub license](https://img.shields.io/github/license/skttl/umbraco-smartredirectsuggester?color=8AB803)](https://github.com/skttl/umbraco-smart-redirect-suggester/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/skttl/umbraco-smart-redirect-suggester?color=8AB803)](https://github.com/skttl/umbraco-smart-redirect-suggester/blob/main/LICENSE)
 
 Smart Redirect Suggester improves the Umbraco backoffice trash flow by helping editors create redirects when published content is moved to the recycle bin.
 
@@ -61,6 +61,6 @@ The service tries `UmbAI_Search` first and falls back to `Umb_Content`. If neith
 
 For fuller setup and development documentation, see:
 
-- Repository overview: https://github.com/skttl/umbraco-smartredirectsuggester
+- Repository overview: https://github.com/skttl/umbraco-smart-redirect-suggester
 - Installation guide: https://github.com/skttl/umbraco-smart-redirect-suggester/blob/main/docs/installation.md
 - Development notes: https://github.com/skttl/umbraco-smart-redirect-suggester/blob/main/docs/development.md
