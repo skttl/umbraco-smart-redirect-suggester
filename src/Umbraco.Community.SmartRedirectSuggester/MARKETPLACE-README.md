@@ -8,19 +8,19 @@ Before trashing, the package captures the current URLs for the selected document
 
 ### Single item trash flow
 
-![Single item trash flow](https://raw.githubusercontent.com/skttl/umbraco-smartredirectsuggester/main/docs/screenshots/single-trash-suggested-redirects.png)
+![Single item trash flow](https://raw.githubusercontent.com/skttl/umbraco-smart-redirect-suggester/main/docs/screenshots/single-trash-suggested-redirects.png)
 
 ### Bulk trash with suggested redirects
 
-![Bulk trash with suggested redirects](https://raw.githubusercontent.com/skttl/umbraco-smartredirectsuggester/main/docs/screenshots/multiple-trashes-suggested-redirects.png)
+![Bulk trash with suggested redirects](https://raw.githubusercontent.com/skttl/umbraco-smart-redirect-suggester/main/docs/screenshots/multiple-trashes-suggested-redirects.png)
 
 ### Change a redirect target inside a bulk action
 
-![Change redirect target](https://raw.githubusercontent.com/skttl/umbraco-smartredirectsuggester/main/docs/screenshots/change-redirect-for-individual-in-multiple.png)
+![Change redirect target](https://raw.githubusercontent.com/skttl/umbraco-smart-redirect-suggester/main/docs/screenshots/change-redirect-for-individual-in-multiple.png)
 
 ### Review redirects in Umbraco redirect management
 
-![Redirect management](https://raw.githubusercontent.com/skttl/umbraco-smartredirectsuggester/main/docs/screenshots/redirect-management.png)
+![Redirect management](https://raw.githubusercontent.com/skttl/umbraco-smart-redirect-suggester/main/docs/screenshots/redirect-management.png)
 
 ## Features
 
@@ -74,4 +74,4 @@ The service tries `UmbAI_Search` first and falls back to `Umb_Content`. If neith
 For more information, see:
 
 - Repository overview: https://github.com/skttl/umbraco-smartredirectsuggester
-- Installation guide: https://github.com/skttl/umbraco-smartredirectsuggester/blob/main/docs/installation.md
+- Installation guide: https://github.com/skttl/umbraco-smart-redirect-suggester/blob/main/docs/installation.md

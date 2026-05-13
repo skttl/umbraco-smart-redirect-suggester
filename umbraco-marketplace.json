@@ -9,25 +9,25 @@
     "Category": "Developer Tools",
     "AlternateCategory": "Search",
     "Description": "Improve the Umbraco trash flow by suggesting redirect targets for published content before it is moved to the recycle bin.",
-    "DocumentationUrl": "https://github.com/skttl/umbraco-smartredirectsuggester/blob/main/docs/README.md",
+    "DocumentationUrl": "https://github.com/skttl/umbraco-smart-redirect-suggester/blob/main/docs/README.md",
     "LicenseTypes": [ "Free" ],
-    "IssueTrackerUrl": "https://github.com/skttl/umbraco-smartredirectsuggester/issues",
+    "IssueTrackerUrl": "https://github.com/skttl/umbraco-smart-redirect-suggester/issues",
     "PackageType": "Package",
     "Screenshots": [
       {
-        "ImageUrl": "https://raw.githubusercontent.com/skttl/umbraco-smartredirectsuggester/main/docs/screenshots/single-trash-suggested-redirects.png",
+        "ImageUrl": "https://raw.githubusercontent.com/skttl/umbraco-smart-redirect-suggester/main/docs/screenshots/single-trash-suggested-redirects.png",
         "Caption": "Suggest redirect targets when trashing a single published document."
       },
       {
-        "ImageUrl": "https://raw.githubusercontent.com/skttl/umbraco-smartredirectsuggester/main/docs/screenshots/multiple-trashes-suggested-redirects.png",
+        "ImageUrl": "https://raw.githubusercontent.com/skttl/umbraco-smart-redirect-suggester/main/docs/screenshots/multiple-trashes-suggested-redirects.png",
         "Caption": "Review suggested redirect targets for multiple trashed documents at once."
       },
       {
-        "ImageUrl": "https://raw.githubusercontent.com/skttl/umbraco-smartredirectsuggester/main/docs/screenshots/change-redirect-for-individual-in-multiple.png",
+        "ImageUrl": "https://raw.githubusercontent.com/skttl/umbraco-smart-redirect-suggester/main/docs/screenshots/change-redirect-for-individual-in-multiple.png",
         "Caption": "Change the redirect target for an individual item during a bulk trash flow."
       },
       {
-        "ImageUrl": "https://raw.githubusercontent.com/skttl/umbraco-smartredirectsuggester/main/docs/screenshots/redirect-management.png",
+        "ImageUrl": "https://raw.githubusercontent.com/skttl/umbraco-smart-redirect-suggester/main/docs/screenshots/redirect-management.png",
         "Caption": "Review the created redirects in Umbraco redirect management."
       }
     ],
