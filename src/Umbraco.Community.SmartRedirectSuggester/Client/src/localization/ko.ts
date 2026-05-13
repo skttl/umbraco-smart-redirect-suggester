@@ -1,0 +1,32 @@
+export default {
+  smartRedirectSuggester: {
+    modal_singleHeadline: "이 페이지에 대한 리디렉션을 생성하시겠습니까?",
+    modal_bulkHeadline: "{0}개 페이지에 대한 리디렉션을 생성하시겠습니까?",
+    modal_trashWithoutRedirect: "리디렉션 없이 휴지통으로 이동",
+    modal_submitSingleRedirect: "휴지통으로 이동하고 리디렉션 생성",
+    modal_submitMultipleRedirects: "휴지통으로 이동하고 {0}개의 리디렉션 생성",
+    modal_loadFailed: "제안을 불러올 수 없습니다. 리디렉션을 만들지 않고도 휴지통으로 이동할 수 있습니다.",
+    modal_noSuggestions: "선택한 콘텐츠에 대한 리디렉션 제안을 찾을 수 없습니다.",
+    modal_singleDescription: "{0} 항목이 휴지통으로 이동됩니다. 방문자를 어디로 리디렉션할지 선택하세요.",
+    modal_noAutomaticSuggestions: "자동 제안을 찾을 수 없습니다.",
+    modal_pickedContent: "선택한 콘텐츠",
+    modal_manuallyPicked: "수동 선택됨",
+    modal_bulkDescription: "{0}개의 페이지가 휴지통으로 이동됩니다. 각 페이지에 대해 제안된 리디렉션 대상을 확인하거나 변경하세요.",
+    modal_tablePage: "페이지",
+    modal_tableRedirectTo: "리디렉션 대상",
+    modal_pageOf: "페이지 {0} / {1}",
+    modal_trashedContent: "삭제된 콘텐츠",
+    modal_noRedirect: "리디렉션 없음",
+    modal_selectedContent: "선택한 콘텐츠",
+    modal_chooseRedirectTarget: "리디렉션 대상 선택",
+    modal_currentManualSelection: "현재 수동 선택",
+    notification_redirectCreatedHeadline: "리디렉션이 생성되었습니다",
+    notification_redirectCreatedSingle: "리디렉션 1개가 URL 추적기에 추가되었습니다.",
+    notification_redirectCreatedMultiple: "리디렉션 {0}개가 URL 추적기에 추가되었습니다.",
+    notification_redirectNotCreatedHeadline: "리디렉션이 생성되지 않았습니다",
+    notification_redirectNotCreatedMessage: "문서는 휴지통으로 이동되었지만 리디렉션을 등록할 수 없었습니다. Redirect URL Management에서 수동으로 추가할 수 있습니다.",
+    manifest_entityActionName: "Smart Trash 문서 작업",
+    manifest_entityBulkActionName: "Smart Trash 문서 일괄 작업",
+    manifest_modalName: "Smart Redirect Suggester - 리디렉션 제안 모달"
+  }
+};

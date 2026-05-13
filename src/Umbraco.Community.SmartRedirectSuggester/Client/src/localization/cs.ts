@@ -1,0 +1,32 @@
+export default {
+  smartRedirectSuggester: {
+    modal_singleHeadline: "Vytvořit přesměrování pro tuto stránku?",
+    modal_bulkHeadline: "Vytvořit přesměrování pro {0} stránek?",
+    modal_trashWithoutRedirect: "Přesunout do koše bez přesměrování",
+    modal_submitSingleRedirect: "Přesunout do koše a vytvořit přesměrování",
+    modal_submitMultipleRedirects: "Přesunout do koše a vytvořit {0} přesměrování",
+    modal_loadFailed: "Návrhy se nepodařilo načíst. Stále můžete přesunout obsah do koše bez vytvoření přesměrování.",
+    modal_noSuggestions: "Pro vybraný obsah nebyly nalezeny žádné návrhy přesměrování.",
+    modal_singleDescription: "{0} bude přesunuto do koše. Vyberte, kam mají být návštěvníci přesměrováni.",
+    modal_noAutomaticSuggestions: "Nebyly nalezeny žádné automatické návrhy.",
+    modal_pickedContent: "Vybraný obsah",
+    modal_manuallyPicked: "Vybráno ručně",
+    modal_bulkDescription: "{0} stránek bude přesunuto do koše. Potvrďte nebo změňte navržený cíl přesměrování pro každou z nich.",
+    modal_tablePage: "Stránka",
+    modal_tableRedirectTo: "Přesměrovat na",
+    modal_pageOf: "Stránka {0} z {1}",
+    modal_trashedContent: "Odstraněný obsah",
+    modal_noRedirect: "Bez přesměrování",
+    modal_selectedContent: "Vybraný obsah",
+    modal_chooseRedirectTarget: "Vyberte cíl přesměrování",
+    modal_currentManualSelection: "Aktuální ruční výběr",
+    notification_redirectCreatedHeadline: "Přesměrování vytvořeno",
+    notification_redirectCreatedSingle: "1 přesměrování bylo přidáno do sledování URL.",
+    notification_redirectCreatedMultiple: "Do sledování URL bylo přidáno {0} přesměrování.",
+    notification_redirectNotCreatedHeadline: "Přesměrování nebylo vytvořeno",
+    notification_redirectNotCreatedMessage: "Dokument byl přesunut do koše, ale přesměrování se nepodařilo zaregistrovat. Můžete jej přidat ručně v Redirect URL Management.",
+    manifest_entityActionName: "Akce dokumentu Smart Trash",
+    manifest_entityBulkActionName: "Hromadná akce dokumentu Smart Trash",
+    manifest_modalName: "Smart Redirect Suggester - dialog návrhu přesměrování"
+  }
+};

@@ -1,0 +1,32 @@
+export default {
+  smartRedirectSuggester: {
+    modal_singleHeadline: "Tạo chuyển hướng cho trang này?",
+    modal_bulkHeadline: "Tạo chuyển hướng cho {0} trang?",
+    modal_trashWithoutRedirect: "Chuyển vào thùng rác mà không tạo chuyển hướng",
+    modal_submitSingleRedirect: "Chuyển vào thùng rác và tạo chuyển hướng",
+    modal_submitMultipleRedirects: "Chuyển vào thùng rác và tạo {0} chuyển hướng",
+    modal_loadFailed: "Không thể tải gợi ý. Bạn vẫn có thể chuyển vào thùng rác mà không tạo chuyển hướng.",
+    modal_noSuggestions: "Không tìm thấy gợi ý chuyển hướng cho nội dung đã chọn.",
+    modal_singleDescription: "{0} sẽ được chuyển vào thùng rác. Hãy chọn nơi khách truy cập sẽ được chuyển hướng tới.",
+    modal_noAutomaticSuggestions: "Không tìm thấy gợi ý tự động.",
+    modal_pickedContent: "Nội dung đã chọn",
+    modal_manuallyPicked: "Đã chọn thủ công",
+    modal_bulkDescription: "{0} trang sắp được chuyển vào thùng rác. Xác nhận hoặc thay đổi đích chuyển hướng được đề xuất cho từng trang.",
+    modal_tablePage: "Trang",
+    modal_tableRedirectTo: "Chuyển hướng đến",
+    modal_pageOf: "Trang {0} / {1}",
+    modal_trashedContent: "Nội dung đã xóa",
+    modal_noRedirect: "Không chuyển hướng",
+    modal_selectedContent: "Nội dung đã chọn",
+    modal_chooseRedirectTarget: "Chọn đích chuyển hướng",
+    modal_currentManualSelection: "Lựa chọn thủ công hiện tại",
+    notification_redirectCreatedHeadline: "Đã tạo chuyển hướng",
+    notification_redirectCreatedSingle: "1 chuyển hướng đã được thêm vào bộ theo dõi URL.",
+    notification_redirectCreatedMultiple: "{0} chuyển hướng đã được thêm vào bộ theo dõi URL.",
+    notification_redirectNotCreatedHeadline: "Không tạo được chuyển hướng",
+    notification_redirectNotCreatedMessage: "Tài liệu đã được chuyển vào thùng rác, nhưng không thể đăng ký chuyển hướng. Bạn có thể thêm thủ công trong Redirect URL Management.",
+    manifest_entityActionName: "Hành động tài liệu Smart Trash",
+    manifest_entityBulkActionName: "Hành động hàng loạt tài liệu Smart Trash",
+    manifest_modalName: "Smart Redirect Suggester - hộp thoại gợi ý chuyển hướng"
+  }
+};

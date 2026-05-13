@@ -1,0 +1,32 @@
+export default {
+  smartRedirectSuggester: {
+    modal_singleHeadline: "Een redirect voor deze pagina maken?",
+    modal_bulkHeadline: "Redirects maken voor {0} pagina's?",
+    modal_trashWithoutRedirect: "Naar prullenbak zonder redirect",
+    modal_submitSingleRedirect: "Naar prullenbak en redirect maken",
+    modal_submitMultipleRedirects: "Naar prullenbak en {0} redirects maken",
+    modal_loadFailed: "Suggesties konden niet worden geladen. Je kunt nog steeds naar de prullenbak verplaatsen zonder redirects te maken.",
+    modal_noSuggestions: "Er zijn geen redirectsuggesties gevonden voor de geselecteerde content.",
+    modal_singleDescription: "{0} wordt naar de prullenbak verplaatst. Kies waar bezoekers naartoe moeten worden doorgestuurd.",
+    modal_noAutomaticSuggestions: "Geen automatische suggesties gevonden.",
+    modal_pickedContent: "Gekozen content",
+    modal_manuallyPicked: "Handmatig gekozen",
+    modal_bulkDescription: "{0} pagina's worden naar de prullenbak verplaatst. Bevestig of wijzig voor elke pagina het voorgestelde redirectdoel.",
+    modal_tablePage: "Pagina",
+    modal_tableRedirectTo: "Redirect naar",
+    modal_pageOf: "Pagina {0} van {1}",
+    modal_trashedContent: "Verwijderde content",
+    modal_noRedirect: "Geen redirect",
+    modal_selectedContent: "Geselecteerde content",
+    modal_chooseRedirectTarget: "Kies redirectdoel",
+    modal_currentManualSelection: "Huidige handmatige selectie",
+    notification_redirectCreatedHeadline: "Redirect gemaakt",
+    notification_redirectCreatedSingle: "1 redirect toegevoegd aan de URL-tracker.",
+    notification_redirectCreatedMultiple: "{0} redirects toegevoegd aan de URL-tracker.",
+    notification_redirectNotCreatedHeadline: "Redirect niet gemaakt",
+    notification_redirectNotCreatedMessage: "Het document is naar de prullenbak verplaatst, maar de redirect kon niet worden geregistreerd. Je kunt deze handmatig toevoegen in Redirect URL Management.",
+    manifest_entityActionName: "Smart Trash documentactie",
+    manifest_entityBulkActionName: "Smart Trash documentbulkactie",
+    manifest_modalName: "Smart Redirect Suggester - redirectsuggestiemodal"
+  }
+};

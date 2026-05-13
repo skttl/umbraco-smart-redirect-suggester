@@ -1,0 +1,32 @@
+export default {
+  smartRedirectSuggester: {
+    modal_singleHeadline: "Eine Weiterleitung für diese Seite erstellen?",
+    modal_bulkHeadline: "Weiterleitungen für {0} Seiten erstellen?",
+    modal_trashWithoutRedirect: "In den Papierkorb ohne Weiterleitung",
+    modal_submitSingleRedirect: "In den Papierkorb und Weiterleitung erstellen",
+    modal_submitMultipleRedirects: "In den Papierkorb und {0} Weiterleitungen erstellen",
+    modal_loadFailed: "Vorschläge konnten nicht geladen werden. Sie können weiterhin in den Papierkorb verschieben, ohne Weiterleitungen zu erstellen.",
+    modal_noSuggestions: "Für den ausgewählten Inhalt wurden keine Weiterleitungsvorschläge gefunden.",
+    modal_singleDescription: "{0} wird in den Papierkorb verschoben. Wählen Sie aus, wohin Besucher weitergeleitet werden sollen.",
+    modal_noAutomaticSuggestions: "Keine automatischen Vorschläge gefunden.",
+    modal_pickedContent: "Ausgewählter Inhalt",
+    modal_manuallyPicked: "Manuell ausgewählt",
+    modal_bulkDescription: "{0} Seiten werden in den Papierkorb verschoben. Bestätigen oder ändern Sie das vorgeschlagene Weiterleitungsziel für jede Seite.",
+    modal_tablePage: "Seite",
+    modal_tableRedirectTo: "Weiterleiten zu",
+    modal_pageOf: "Seite {0} von {1}",
+    modal_trashedContent: "Gelöschter Inhalt",
+    modal_noRedirect: "Keine Weiterleitung",
+    modal_selectedContent: "Ausgewählter Inhalt",
+    modal_chooseRedirectTarget: "Weiterleitungsziel auswählen",
+    modal_currentManualSelection: "Aktuelle manuelle Auswahl",
+    notification_redirectCreatedHeadline: "Weiterleitung erstellt",
+    notification_redirectCreatedSingle: "1 Weiterleitung wurde zum URL-Tracker hinzugefügt.",
+    notification_redirectCreatedMultiple: "{0} Weiterleitungen wurden zum URL-Tracker hinzugefügt.",
+    notification_redirectNotCreatedHeadline: "Weiterleitung nicht erstellt",
+    notification_redirectNotCreatedMessage: "Das Dokument wurde in den Papierkorb verschoben, aber die Weiterleitung konnte nicht registriert werden. Sie können sie manuell in der Redirect URL Management hinzufügen.",
+    manifest_entityActionName: "Smart Trash Dokumentaktion",
+    manifest_entityBulkActionName: "Smart Trash Dokument-Sammelaktion",
+    manifest_modalName: "Smart Redirect Suggester - Weiterleitungsvorschlagsdialog"
+  }
+};

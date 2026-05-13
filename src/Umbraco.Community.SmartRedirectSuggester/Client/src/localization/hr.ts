@@ -1,0 +1,32 @@
+export default {
+  smartRedirectSuggester: {
+    modal_singleHeadline: "Stvoriti preusmjeravanje za ovu stranicu?",
+    modal_bulkHeadline: "Stvoriti preusmjeravanja za {0} stranica?",
+    modal_trashWithoutRedirect: "Premjesti u otpad bez preusmjeravanja",
+    modal_submitSingleRedirect: "Premjesti u otpad i stvori preusmjeravanje",
+    modal_submitMultipleRedirects: "Premjesti u otpad i stvori {0} preusmjeravanja",
+    modal_loadFailed: "Prijedlozi se nisu mogli učitati. I dalje možete premjestiti u otpad bez stvaranja preusmjeravanja.",
+    modal_noSuggestions: "Nisu pronađeni prijedlozi preusmjeravanja za odabrani sadržaj.",
+    modal_singleDescription: "{0} će biti premješten u otpad. Odaberite kamo treba preusmjeriti posjetitelje.",
+    modal_noAutomaticSuggestions: "Nisu pronađeni automatski prijedlozi.",
+    modal_pickedContent: "Odabrani sadržaj",
+    modal_manuallyPicked: "Ručno odabrano",
+    modal_bulkDescription: "{0} stranica bit će premješteno u otpad. Potvrdite ili promijenite predloženo odredište preusmjeravanja za svaku od njih.",
+    modal_tablePage: "Stranica",
+    modal_tableRedirectTo: "Preusmjeri na",
+    modal_pageOf: "Stranica {0} od {1}",
+    modal_trashedContent: "Izbrisani sadržaj",
+    modal_noRedirect: "Bez preusmjeravanja",
+    modal_selectedContent: "Odabrani sadržaj",
+    modal_chooseRedirectTarget: "Odaberite odredište preusmjeravanja",
+    modal_currentManualSelection: "Trenutni ručni odabir",
+    notification_redirectCreatedHeadline: "Preusmjeravanje stvoreno",
+    notification_redirectCreatedSingle: "1 preusmjeravanje je dodano u URL tracker.",
+    notification_redirectCreatedMultiple: "{0} preusmjeravanja je dodano u URL tracker.",
+    notification_redirectNotCreatedHeadline: "Preusmjeravanje nije stvoreno",
+    notification_redirectNotCreatedMessage: "Dokument je premješten u otpad, ali preusmjeravanje nije moglo biti registrirano. Možete ga ručno dodati u Redirect URL Management.",
+    manifest_entityActionName: "Smart Trash akcija dokumenta",
+    manifest_entityBulkActionName: "Smart Trash skupna akcija dokumenta",
+    manifest_modalName: "Smart Redirect Suggester - modal za prijedlog preusmjeravanja"
+  }
+};

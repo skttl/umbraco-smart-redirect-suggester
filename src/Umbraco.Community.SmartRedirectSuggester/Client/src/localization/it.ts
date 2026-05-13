@@ -1,0 +1,32 @@
+export default {
+  smartRedirectSuggester: {
+    modal_singleHeadline: "Creare un reindirizzamento per questa pagina?",
+    modal_bulkHeadline: "Creare reindirizzamenti per {0} pagine?",
+    modal_trashWithoutRedirect: "Sposta nel cestino senza reindirizzamento",
+    modal_submitSingleRedirect: "Sposta nel cestino e crea reindirizzamento",
+    modal_submitMultipleRedirects: "Sposta nel cestino e crea {0} reindirizzamenti",
+    modal_loadFailed: "Impossibile caricare i suggerimenti. Puoi comunque spostare nel cestino senza creare reindirizzamenti.",
+    modal_noSuggestions: "Nessun suggerimento di reindirizzamento trovato per il contenuto selezionato.",
+    modal_singleDescription: "{0} verrà spostato nel cestino. Scegli dove reindirizzare i visitatori.",
+    modal_noAutomaticSuggestions: "Nessun suggerimento automatico trovato.",
+    modal_pickedContent: "Contenuto selezionato",
+    modal_manuallyPicked: "Selezionato manualmente",
+    modal_bulkDescription: "{0} pagine stanno per essere spostate nel cestino. Conferma o modifica la destinazione di reindirizzamento suggerita per ciascuna.",
+    modal_tablePage: "Pagina",
+    modal_tableRedirectTo: "Reindirizza a",
+    modal_pageOf: "Pagina {0} di {1}",
+    modal_trashedContent: "Contenuto eliminato",
+    modal_noRedirect: "Nessun reindirizzamento",
+    modal_selectedContent: "Contenuto selezionato",
+    modal_chooseRedirectTarget: "Scegli la destinazione del reindirizzamento",
+    modal_currentManualSelection: "Selezione manuale corrente",
+    notification_redirectCreatedHeadline: "Reindirizzamento creato",
+    notification_redirectCreatedSingle: "1 reindirizzamento aggiunto al tracker URL.",
+    notification_redirectCreatedMultiple: "{0} reindirizzamenti aggiunti al tracker URL.",
+    notification_redirectNotCreatedHeadline: "Reindirizzamento non creato",
+    notification_redirectNotCreatedMessage: "Il documento è stato spostato nel cestino, ma il reindirizzamento non ha potuto essere registrato. Puoi aggiungerlo manualmente in Redirect URL Management.",
+    manifest_entityActionName: "Azione documento Smart Trash",
+    manifest_entityBulkActionName: "Azione massiva documento Smart Trash",
+    manifest_modalName: "Smart Redirect Suggester - finestra suggerimento reindirizzamento"
+  }
+};

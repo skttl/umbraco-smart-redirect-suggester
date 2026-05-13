@@ -1,0 +1,32 @@
+export default {
+  smartRedirectSuggester: {
+    modal_singleHeadline: "Skapa en omdirigering för den här sidan?",
+    modal_bulkHeadline: "Skapa omdirigeringar för {0} sidor?",
+    modal_trashWithoutRedirect: "Släng utan omdirigering",
+    modal_submitSingleRedirect: "Släng och skapa omdirigering",
+    modal_submitMultipleRedirects: "Släng och skapa {0} omdirigeringar",
+    modal_loadFailed: "Förslag kunde inte läsas in. Du kan fortfarande slänga utan att skapa omdirigeringar.",
+    modal_noSuggestions: "Inga omdirigeringsförslag hittades för det valda innehållet.",
+    modal_singleDescription: "{0} kommer att flyttas till papperskorgen. Välj vart besökare ska omdirigeras.",
+    modal_noAutomaticSuggestions: "Inga automatiska förslag hittades.",
+    modal_pickedContent: "Valt innehåll",
+    modal_manuallyPicked: "Valt manuellt",
+    modal_bulkDescription: "{0} sidor är på väg att flyttas till papperskorgen. Bekräfta eller ändra det föreslagna omdirigeringsmålet för var och en.",
+    modal_tablePage: "Sida",
+    modal_tableRedirectTo: "Omdirigera till",
+    modal_pageOf: "Sida {0} av {1}",
+    modal_trashedContent: "Borttaget innehåll",
+    modal_noRedirect: "Ingen omdirigering",
+    modal_selectedContent: "Valt innehåll",
+    modal_chooseRedirectTarget: "Välj omdirigeringsmål",
+    modal_currentManualSelection: "Nuvarande manuella val",
+    notification_redirectCreatedHeadline: "Omdirigering skapad",
+    notification_redirectCreatedSingle: "1 omdirigering lades till i URL-spåraren.",
+    notification_redirectCreatedMultiple: "{0} omdirigeringar lades till i URL-spåraren.",
+    notification_redirectNotCreatedHeadline: "Omdirigering skapades inte",
+    notification_redirectNotCreatedMessage: "Dokumentet slängdes, men omdirigeringen kunde inte registreras. Du kan lägga till den manuellt i Redirect URL Management.",
+    manifest_entityActionName: "Smart Trash dokumentåtgärd",
+    manifest_entityBulkActionName: "Smart Trash massåtgärd för dokument",
+    manifest_modalName: "Smart Redirect Suggester - modal för omdirigeringsförslag"
+  }
+};

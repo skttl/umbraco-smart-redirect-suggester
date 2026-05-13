@@ -1,0 +1,32 @@
+export default {
+  smartRedirectSuggester: {
+    modal_singleHeadline: "Bu sayfa için yönlendirme oluşturulsun mu?",
+    modal_bulkHeadline: "{0} sayfa için yönlendirmeler oluşturulsun mu?",
+    modal_trashWithoutRedirect: "Yönlendirme olmadan çöpe taşı",
+    modal_submitSingleRedirect: "Çöpe taşı ve yönlendirme oluştur",
+    modal_submitMultipleRedirects: "Çöpe taşı ve {0} yönlendirme oluştur",
+    modal_loadFailed: "Öneriler yüklenemedi. Yönlendirme oluşturmadan yine de çöpe taşıyabilirsiniz.",
+    modal_noSuggestions: "Seçilen içerik için yönlendirme önerisi bulunamadı.",
+    modal_singleDescription: "{0} çöp kutusuna taşınacak. Ziyaretçilerin nereye yönlendirileceğini seçin.",
+    modal_noAutomaticSuggestions: "Otomatik öneri bulunamadı.",
+    modal_pickedContent: "Seçilen içerik",
+    modal_manuallyPicked: "Elle seçildi",
+    modal_bulkDescription: "{0} sayfa çöp kutusuna taşınmak üzere. Her biri için önerilen yönlendirme hedefini onaylayın veya değiştirin.",
+    modal_tablePage: "Sayfa",
+    modal_tableRedirectTo: "Şuraya yönlendir",
+    modal_pageOf: "Sayfa {0} / {1}",
+    modal_trashedContent: "Silinen içerik",
+    modal_noRedirect: "Yönlendirme yok",
+    modal_selectedContent: "Seçilen içerik",
+    modal_chooseRedirectTarget: "Yönlendirme hedefini seçin",
+    modal_currentManualSelection: "Geçerli manuel seçim",
+    notification_redirectCreatedHeadline: "Yönlendirme oluşturuldu",
+    notification_redirectCreatedSingle: "1 yönlendirme URL izleyicisine eklendi.",
+    notification_redirectCreatedMultiple: "{0} yönlendirme URL izleyicisine eklendi.",
+    notification_redirectNotCreatedHeadline: "Yönlendirme oluşturulmadı",
+    notification_redirectNotCreatedMessage: "Belge çöp kutusuna taşındı ancak yönlendirme kaydedilemedi. Bunu Redirect URL Management içinde manuel olarak ekleyebilirsiniz.",
+    manifest_entityActionName: "Smart Trash belge eylemi",
+    manifest_entityBulkActionName: "Smart Trash toplu belge eylemi",
+    manifest_modalName: "Smart Redirect Suggester - yönlendirme önerisi penceresi"
+  }
+};

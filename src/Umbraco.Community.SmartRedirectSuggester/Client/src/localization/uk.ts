@@ -1,0 +1,32 @@
+export default {
+  smartRedirectSuggester: {
+    modal_singleHeadline: "Створити перенаправлення для цієї сторінки?",
+    modal_bulkHeadline: "Створити перенаправлення для {0} сторінок?",
+    modal_trashWithoutRedirect: "Перемістити до кошика без перенаправлення",
+    modal_submitSingleRedirect: "Перемістити до кошика і створити перенаправлення",
+    modal_submitMultipleRedirects: "Перемістити до кошика і створити {0} перенаправлень",
+    modal_loadFailed: "Не вдалося завантажити пропозиції. Ви все одно можете перемістити до кошика без створення перенаправлень.",
+    modal_noSuggestions: "Для вибраного вмісту не знайдено пропозицій перенаправлення.",
+    modal_singleDescription: "{0} буде переміщено до кошика. Виберіть, куди слід перенаправляти відвідувачів.",
+    modal_noAutomaticSuggestions: "Автоматичних пропозицій не знайдено.",
+    modal_pickedContent: "Вибраний вміст",
+    modal_manuallyPicked: "Вибрано вручну",
+    modal_bulkDescription: "{0} сторінок буде переміщено до кошика. Підтвердьте або змініть запропоновану ціль перенаправлення для кожної з них.",
+    modal_tablePage: "Сторінка",
+    modal_tableRedirectTo: "Перенаправити на",
+    modal_pageOf: "Сторінка {0} з {1}",
+    modal_trashedContent: "Видалений вміст",
+    modal_noRedirect: "Без перенаправлення",
+    modal_selectedContent: "Вибраний вміст",
+    modal_chooseRedirectTarget: "Виберіть ціль перенаправлення",
+    modal_currentManualSelection: "Поточний ручний вибір",
+    notification_redirectCreatedHeadline: "Перенаправлення створено",
+    notification_redirectCreatedSingle: "1 перенаправлення додано до відстеження URL.",
+    notification_redirectCreatedMultiple: "{0} перенаправлень додано до відстеження URL.",
+    notification_redirectNotCreatedHeadline: "Перенаправлення не створено",
+    notification_redirectNotCreatedMessage: "Документ було переміщено до кошика, але перенаправлення не вдалося зареєструвати. Ви можете додати його вручну в Redirect URL Management.",
+    manifest_entityActionName: "Дія документа Smart Trash",
+    manifest_entityBulkActionName: "Масова дія документа Smart Trash",
+    manifest_modalName: "Smart Redirect Suggester - вікно пропозиції перенаправлення"
+  }
+};

@@ -1,0 +1,32 @@
+export default {
+  smartRedirectSuggester: {
+    modal_singleHeadline: "Utworzyć przekierowanie dla tej strony?",
+    modal_bulkHeadline: "Utworzyć przekierowania dla {0} stron?",
+    modal_trashWithoutRedirect: "Przenieś do kosza bez przekierowania",
+    modal_submitSingleRedirect: "Przenieś do kosza i utwórz przekierowanie",
+    modal_submitMultipleRedirects: "Przenieś do kosza i utwórz {0} przekierowań",
+    modal_loadFailed: "Nie udało się załadować sugestii. Nadal możesz przenieść do kosza bez tworzenia przekierowań.",
+    modal_noSuggestions: "Nie znaleziono sugestii przekierowania dla wybranej zawartości.",
+    modal_singleDescription: "{0} zostanie przeniesione do kosza. Wybierz, dokąd mają być przekierowywani odwiedzający.",
+    modal_noAutomaticSuggestions: "Nie znaleziono automatycznych sugestii.",
+    modal_pickedContent: "Wybrana zawartość",
+    modal_manuallyPicked: "Wybrane ręcznie",
+    modal_bulkDescription: "{0} stron zostanie przeniesionych do kosza. Potwierdź lub zmień sugerowany cel przekierowania dla każdej z nich.",
+    modal_tablePage: "Strona",
+    modal_tableRedirectTo: "Przekieruj do",
+    modal_pageOf: "Strona {0} z {1}",
+    modal_trashedContent: "Usunięta zawartość",
+    modal_noRedirect: "Brak przekierowania",
+    modal_selectedContent: "Wybrana zawartość",
+    modal_chooseRedirectTarget: "Wybierz cel przekierowania",
+    modal_currentManualSelection: "Bieżący wybór ręczny",
+    notification_redirectCreatedHeadline: "Przekierowanie utworzone",
+    notification_redirectCreatedSingle: "Dodano 1 przekierowanie do śledzenia URL.",
+    notification_redirectCreatedMultiple: "Dodano {0} przekierowań do śledzenia URL.",
+    notification_redirectNotCreatedHeadline: "Nie utworzono przekierowania",
+    notification_redirectNotCreatedMessage: "Dokument został przeniesiony do kosza, ale nie udało się zarejestrować przekierowania. Możesz dodać je ręcznie w Redirect URL Management.",
+    manifest_entityActionName: "Akcja dokumentu Smart Trash",
+    manifest_entityBulkActionName: "Zbiorcza akcja dokumentu Smart Trash",
+    manifest_modalName: "Smart Redirect Suggester - okno sugestii przekierowania"
+  }
+};

@@ -1,0 +1,32 @@
+export default {
+  smartRedirectSuggester: {
+    modal_singleHeadline: "要為此頁面建立重新導向嗎？",
+    modal_bulkHeadline: "要為 {0} 個頁面建立重新導向嗎？",
+    modal_trashWithoutRedirect: "不建立重新導向並移至回收桶",
+    modal_submitSingleRedirect: "移至回收桶並建立重新導向",
+    modal_submitMultipleRedirects: "移至回收桶並建立 {0} 個重新導向",
+    modal_loadFailed: "無法載入建議。你仍然可以在不建立重新導向的情況下移至回收桶。",
+    modal_noSuggestions: "找不到所選內容的重新導向建議。",
+    modal_singleDescription: "{0} 將被移至回收桶。請選擇訪客應被重新導向到的位置。",
+    modal_noAutomaticSuggestions: "找不到自動建議。",
+    modal_pickedContent: "已選擇內容",
+    modal_manuallyPicked: "手動選擇",
+    modal_bulkDescription: "{0} 個頁面即將移至回收桶。請確認或變更每個頁面建議的重新導向目標。",
+    modal_tablePage: "頁面",
+    modal_tableRedirectTo: "重新導向至",
+    modal_pageOf: "第 {0} 頁，共 {1} 頁",
+    modal_trashedContent: "已刪除內容",
+    modal_noRedirect: "無重新導向",
+    modal_selectedContent: "已選擇內容",
+    modal_chooseRedirectTarget: "選擇重新導向目標",
+    modal_currentManualSelection: "目前手動選擇",
+    notification_redirectCreatedHeadline: "已建立重新導向",
+    notification_redirectCreatedSingle: "已將 1 個重新導向加入 URL 追蹤器。",
+    notification_redirectCreatedMultiple: "已將 {0} 個重新導向加入 URL 追蹤器。",
+    notification_redirectNotCreatedHeadline: "未建立重新導向",
+    notification_redirectNotCreatedMessage: "文件已移至回收桶，但無法註冊重新導向。你可以在 Redirect URL Management 中手動新增。",
+    manifest_entityActionName: "Smart Trash 文件動作",
+    manifest_entityBulkActionName: "Smart Trash 文件大量動作",
+    manifest_modalName: "Smart Redirect Suggester - 重新導向建議視窗"
+  }
+};

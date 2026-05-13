@@ -1,0 +1,32 @@
+export default {
+  smartRedirectSuggester: {
+    modal_singleHeadline: "Create a redirect for this page?",
+    modal_bulkHeadline: "Create redirects for {0} pages?",
+    modal_trashWithoutRedirect: "Trash without redirect",
+    modal_submitSingleRedirect: "Trash and create redirect",
+    modal_submitMultipleRedirects: "Trash and create {0} redirects",
+    modal_loadFailed: "Suggestions could not be loaded. You can still trash without creating redirects.",
+    modal_noSuggestions: "No redirect suggestions were found for the selected content.",
+    modal_singleDescription: "{0} will be moved to the recycle bin. Pick where visitors should be redirected.",
+    modal_noAutomaticSuggestions: "No automatic suggestions found.",
+    modal_pickedContent: "Picked content",
+    modal_manuallyPicked: "Manually picked",
+    modal_bulkDescription: "{0} pages are about to be moved to the recycle bin. Confirm or change the suggested redirect target for each one.",
+    modal_tablePage: "Page",
+    modal_tableRedirectTo: "Redirect to",
+    modal_pageOf: "Page {0} of {1}",
+    modal_trashedContent: "Trashed content",
+    modal_noRedirect: "No redirect",
+    modal_selectedContent: "Selected content",
+    modal_chooseRedirectTarget: "Choose redirect target",
+    modal_currentManualSelection: "Current manual selection",
+    notification_redirectCreatedHeadline: "Redirect created",
+    notification_redirectCreatedSingle: "1 redirect added to the URL tracker.",
+    notification_redirectCreatedMultiple: "{0} redirects added to the URL tracker.",
+    notification_redirectNotCreatedHeadline: "Redirect not created",
+    notification_redirectNotCreatedMessage: "The document was trashed, but the redirect could not be registered. You can add it manually in Redirect URL Management.",
+    manifest_entityActionName: "Smart Trash Document Entity Action",
+    manifest_entityBulkActionName: "Smart Trash Document Entity Bulk Action",
+    manifest_modalName: "Smart Redirect Suggester - Suggest Redirect Modal"
+  }
+};

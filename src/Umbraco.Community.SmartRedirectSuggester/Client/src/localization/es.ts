@@ -1,0 +1,32 @@
+export default {
+  smartRedirectSuggester: {
+    modal_singleHeadline: "¿Crear una redirección para esta página?",
+    modal_bulkHeadline: "¿Crear redirecciones para {0} páginas?",
+    modal_trashWithoutRedirect: "Enviar a la papelera sin redirección",
+    modal_submitSingleRedirect: "Enviar a la papelera y crear redirección",
+    modal_submitMultipleRedirects: "Enviar a la papelera y crear {0} redirecciones",
+    modal_loadFailed: "No se pudieron cargar las sugerencias. Aún puedes enviar a la papelera sin crear redirecciones.",
+    modal_noSuggestions: "No se encontraron sugerencias de redirección para el contenido seleccionado.",
+    modal_singleDescription: "{0} se moverá a la papelera. Elige a dónde se debe redirigir a los visitantes.",
+    modal_noAutomaticSuggestions: "No se encontraron sugerencias automáticas.",
+    modal_pickedContent: "Contenido elegido",
+    modal_manuallyPicked: "Elegido manualmente",
+    modal_bulkDescription: "{0} páginas están a punto de moverse a la papelera. Confirma o cambia el destino de redirección sugerido para cada una.",
+    modal_tablePage: "Página",
+    modal_tableRedirectTo: "Redirigir a",
+    modal_pageOf: "Página {0} de {1}",
+    modal_trashedContent: "Contenido eliminado",
+    modal_noRedirect: "Sin redirección",
+    modal_selectedContent: "Contenido seleccionado",
+    modal_chooseRedirectTarget: "Elige el destino de la redirección",
+    modal_currentManualSelection: "Selección manual actual",
+    notification_redirectCreatedHeadline: "Redirección creada",
+    notification_redirectCreatedSingle: "Se añadió 1 redirección al rastreador de URL.",
+    notification_redirectCreatedMultiple: "Se añadieron {0} redirecciones al rastreador de URL.",
+    notification_redirectNotCreatedHeadline: "No se creó la redirección",
+    notification_redirectNotCreatedMessage: "El documento se envió a la papelera, pero no se pudo registrar la redirección. Puedes añadirla manualmente en Redirect URL Management.",
+    manifest_entityActionName: "Acción de documento Smart Trash",
+    manifest_entityBulkActionName: "Acción masiva de documento Smart Trash",
+    manifest_modalName: "Smart Redirect Suggester - modal de sugerencia de redirección"
+  }
+};

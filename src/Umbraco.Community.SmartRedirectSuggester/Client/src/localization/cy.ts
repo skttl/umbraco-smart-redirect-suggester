@@ -1,0 +1,32 @@
+export default {
+  smartRedirectSuggester: {
+    modal_singleHeadline: "Creu ailgyfeiriad ar gyfer y dudalen hon?",
+    modal_bulkHeadline: "Creu ailgyfeiriadau ar gyfer {0} tudalen?",
+    modal_trashWithoutRedirect: "Symud i'r sbwriel heb ailgyfeirio",
+    modal_submitSingleRedirect: "Symud i'r sbwriel a chreu ailgyfeiriad",
+    modal_submitMultipleRedirects: "Symud i'r sbwriel a chreu {0} ailgyfeiriad",
+    modal_loadFailed: "Ni ellid llwytho'r awgrymiadau. Gallwch barhau i symud i'r sbwriel heb greu ailgyfeiriadau.",
+    modal_noSuggestions: "Ni chanfuwyd unrhyw awgrymiadau ailgyfeirio ar gyfer y cynnwys a ddewiswyd.",
+    modal_singleDescription: "Bydd {0} yn cael ei symud i'r sbwriel. Dewiswch ble y dylid ailgyfeirio ymwelwyr.",
+    modal_noAutomaticSuggestions: "Ni chanfuwyd unrhyw awgrymiadau awtomatig.",
+    modal_pickedContent: "Cynnwys a ddewiswyd",
+    modal_manuallyPicked: "Wedi'i ddewis â llaw",
+    modal_bulkDescription: "Mae {0} tudalen ar fin cael eu symud i'r sbwriel. Cadarnhewch neu newidiwch y targed ailgyfeirio a awgrymwyd ar gyfer pob un.",
+    modal_tablePage: "Tudalen",
+    modal_tableRedirectTo: "Ailgyfeirio i",
+    modal_pageOf: "Tudalen {0} o {1}",
+    modal_trashedContent: "Cynnwys wedi'i ddileu",
+    modal_noRedirect: "Dim ailgyfeiriad",
+    modal_selectedContent: "Cynnwys a ddewiswyd",
+    modal_chooseRedirectTarget: "Dewiswch darged ailgyfeirio",
+    modal_currentManualSelection: "Dewis llaw cyfredol",
+    notification_redirectCreatedHeadline: "Crëwyd ailgyfeiriad",
+    notification_redirectCreatedSingle: "Ychwanegwyd 1 ailgyfeiriad at y traciwr URL.",
+    notification_redirectCreatedMultiple: "Ychwanegwyd {0} ailgyfeiriad at y traciwr URL.",
+    notification_redirectNotCreatedHeadline: "Ni chrëwyd ailgyfeiriad",
+    notification_redirectNotCreatedMessage: "Cafodd y ddogfen ei symud i'r sbwriel, ond ni ellid cofrestru'r ailgyfeiriad. Gallwch ei ychwanegu â llaw yn Redirect URL Management.",
+    manifest_entityActionName: "Gweithred ddogfen Smart Trash",
+    manifest_entityBulkActionName: "Gweithred swmp ddogfen Smart Trash",
+    manifest_modalName: "Smart Redirect Suggester - deialog awgrym ailgyfeirio"
+  }
+};

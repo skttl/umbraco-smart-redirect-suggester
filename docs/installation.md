@@ -12,6 +12,20 @@ Add the package to your Umbraco site:
 dotnet add package Umbraco.Community.SmartRedirectSuggester
 ```
 
+Install the required published-content search package:
+
+```bash
+dotnet add package Umbraco.Cms.Search
+```
+
+Optionally install AI-powered search support:
+
+```bash
+dotnet add package Umbraco.AI.Search
+```
+
+`Umbraco.Cms.Search` is required for the search-based suggestion flow. `Umbraco.AI.Search` is optional and enables the preferred `UmbAI_Search` searcher when installed and configured.
+
 ## Register the package
 
 In a normal Umbraco site, adding the NuGet package is enough for the package to be discovered automatically.
@@ -44,6 +58,22 @@ When an editor trashes content:
 - it suggests likely replacement pages from the best available supported searcher
 - the editor can confirm a suggested target, pick another document manually, or skip redirect creation
 - once trashing succeeds, the selected redirects are added to Umbraco's URL tracker
+
+### Example: single trash flow
+
+![Single trash suggested redirects](./screenshots/single-trash-suggested-redirects.png)
+
+### Example: bulk trash flow
+
+![Bulk trash suggested redirects](./screenshots/multiple-trashes-suggested-redirects.png)
+
+### Example: changing one redirect during bulk trash
+
+![Change redirect target in bulk action](./screenshots/change-redirect-for-individual-in-multiple.png)
+
+### Example: reviewing created redirects
+
+![Redirect management](./screenshots/redirect-management.png)
 
 ## Important behavior notes
 

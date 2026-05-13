@@ -4,14 +4,32 @@ Smart Redirect Suggester is an Umbraco package that helps you suggest redirect t
 
 It captures the URLs of the pages being trashed, queries the best available published-content searcher for similar pages, and returns candidate redirect targets that can be reviewed before redirects are created.
 
+## Screenshots
+
+### Single item trash flow
+
+![Single item trash flow](docs/screenshots/single-trash-suggested-redirects.png)
+
+### Bulk trash with suggested redirects
+
+![Bulk trash with suggested redirects](docs/screenshots/multiple-trashes-suggested-redirects.png)
+
+### Change a redirect target inside a bulk action
+
+![Change redirect target](docs/screenshots/change-redirect-for-individual-in-multiple.png)
+
+### Review redirects in Umbraco redirect management
+
+![Redirect management](docs/screenshots/redirect-management.png)
+
 ## Project structure
 
-- `src/SmartRedirectSuggester`
+- `src/Umbraco.Community.SmartRedirectSuggester`
   - The package project.
   - Contains the API controllers, services, models, composers, and client assets.
-- `src/SmartRedirectSuggester.TestSite`
+- `src/Umbraco.Community.SmartRedirectSuggester.Demo`
   - A local Umbraco test site used to run and verify the package in a real backoffice.
-- `docs/README_nuget.md`
+- `src/Umbraco.Community.SmartRedirectSuggester/README.md`
   - The NuGet package readme.
 
 ## Requirements
@@ -19,6 +37,24 @@ It captures the URLs of the pages being trashed, queries the best available publ
 - .NET 10 SDK
 - Node.js 20.17.0 or newer
 - An Umbraco 17-compatible environment for local testing
+
+## Package dependencies for consumers
+
+When installing Smart Redirect Suggester in your own Umbraco site, you also need to install the search packages used to produce redirect suggestions.
+
+Required:
+
+```bash
+dotnet add package Umbraco.Cms.Search
+```
+
+Optional, for AI-powered suggestions:
+
+```bash
+dotnet add package Umbraco.AI.Search
+```
+
+`Umbraco.Cms.Search` provides the published-content search integration used for fallback suggestions. `Umbraco.AI.Search` is optional and enables the preferred `UmbAI_Search` searcher when installed and configured.
 
 ## Running the package locally
 
@@ -33,7 +69,7 @@ dotnet build src/SmartRedirectSuggester.slnx
 
 ### 2. Build the client assets
 
-From `src/SmartRedirectSuggester/Client`:
+From `src/Umbraco.Community.SmartRedirectSuggester/Client`:
 
 ```bash
 npm install
@@ -50,7 +86,7 @@ The built client assets are copied into the package static web assets used by th
 
 ### 3. Run the test site
 
-From `src/SmartRedirectSuggester.TestSite`:
+From `src/Umbraco.Community.SmartRedirectSuggester.Demo`:
 
 ```bash
 dotnet run
@@ -72,15 +108,23 @@ The local test site is configured to run on:
 
 ## Development notes
 
-- The main redirect suggestion logic lives in `src/SmartRedirectSuggester/Services/SmartRedirectSuggesterService.cs`.
-- The prepare endpoint lives in `src/SmartRedirectSuggester/Controllers/PrepareController.cs`.
+- The main redirect suggestion logic lives in `src/Umbraco.Community.SmartRedirectSuggester/Services/SmartRedirectSuggesterService.cs`.
+- The prepare endpoint lives in `src/Umbraco.Community.SmartRedirectSuggester/Controllers/PrepareController.cs`.
 - The package is designed to degrade gracefully when no supported searcher is available, returning no suggestions instead of failing startup.
 
 ## Packaging
 
-The package metadata is defined in `src/SmartRedirectSuggester/SmartRedirectSuggester.csproj`.
+The package metadata is defined in `src/Umbraco.Community.SmartRedirectSuggester/Umbraco.Community.SmartRedirectSuggester.csproj`.
 
-NuGet packaging includes `docs/README_nuget.md` as the package readme.
+NuGet packaging includes `src/Umbraco.Community.SmartRedirectSuggester/README.md` as the package readme.
+
+Marketplace metadata is defined in `umbraco-marketplace.json`.
+
+## Documentation
+
+- [Documentation overview](docs/README.md)
+- [Installation and configuration](docs/installation.md)
+- [Development notes](docs/development.md)
 
 ## Contributing
 

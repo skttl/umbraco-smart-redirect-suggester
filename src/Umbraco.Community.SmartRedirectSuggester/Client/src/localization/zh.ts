@@ -1,0 +1,32 @@
+export default {
+  smartRedirectSuggester: {
+    modal_singleHeadline: "为此页面创建重定向？",
+    modal_bulkHeadline: "为 {0} 个页面创建重定向？",
+    modal_trashWithoutRedirect: "不创建重定向并移至回收站",
+    modal_submitSingleRedirect: "移至回收站并创建重定向",
+    modal_submitMultipleRedirects: "移至回收站并创建 {0} 个重定向",
+    modal_loadFailed: "无法加载建议。你仍然可以在不创建重定向的情况下移至回收站。",
+    modal_noSuggestions: "未找到所选内容的重定向建议。",
+    modal_singleDescription: "{0} 将被移至回收站。请选择访客应被重定向到的位置。",
+    modal_noAutomaticSuggestions: "未找到自动建议。",
+    modal_pickedContent: "已选择内容",
+    modal_manuallyPicked: "手动选择",
+    modal_bulkDescription: "{0} 个页面即将移至回收站。请确认或更改每个页面建议的重定向目标。",
+    modal_tablePage: "页面",
+    modal_tableRedirectTo: "重定向到",
+    modal_pageOf: "第 {0} 页，共 {1} 页",
+    modal_trashedContent: "已删除内容",
+    modal_noRedirect: "无重定向",
+    modal_selectedContent: "已选择内容",
+    modal_chooseRedirectTarget: "选择重定向目标",
+    modal_currentManualSelection: "当前手动选择",
+    notification_redirectCreatedHeadline: "已创建重定向",
+    notification_redirectCreatedSingle: "已向 URL 跟踪器添加 1 个重定向。",
+    notification_redirectCreatedMultiple: "已向 URL 跟踪器添加 {0} 个重定向。",
+    notification_redirectNotCreatedHeadline: "未创建重定向",
+    notification_redirectNotCreatedMessage: "文档已移至回收站，但无法注册重定向。你可以在 Redirect URL Management 中手动添加。",
+    manifest_entityActionName: "Smart Trash 文档操作",
+    manifest_entityBulkActionName: "Smart Trash 文档批量操作",
+    manifest_modalName: "Smart Redirect Suggester - 重定向建议弹窗"
+  }
+};

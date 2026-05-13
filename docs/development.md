@@ -2,19 +2,19 @@
 
 ## Project structure
 
-- `src/SmartRedirectSuggester`
+- `src/Umbraco.Community.SmartRedirectSuggester`
   - Razor Class Library package
   - C# services, controllers, models, composer, and backoffice client source
-- `src/SmartRedirectSuggester/Client`
+- `src/Umbraco.Community.SmartRedirectSuggester/Client`
   - TypeScript/Lit backoffice extension source
-- `src/SmartRedirectSuggester.TestSite`
+- `src/Umbraco.Community.SmartRedirectSuggester.Demo`
   - local Umbraco site for testing the package
 - `docs`
-  - package documentation and NuGet readme content
+  - package documentation
 
 ## Build the client
 
-From `src/SmartRedirectSuggester/Client`:
+From `src/Umbraco.Community.SmartRedirectSuggester/Client`:
 
 ```bash
 npm install
@@ -24,7 +24,7 @@ npm run build
 The built client asset is copied to:
 
 ```text
-wwwroot/App_Plugins/SmartRedirectSuggester/smart-redirect-suggester.js
+wwwroot/App_Plugins/Umbraco.Community.SmartRedirectSuggester/smart-redirect-suggester.js
 ```
 
 ## Watch mode
@@ -33,7 +33,7 @@ For local development:
 
 1. Add the Razor Class Library as a project reference to an Umbraco site.
 2. Start the Umbraco site.
-3. In `src/SmartRedirectSuggester/Client`, run:
+3. In `src/Umbraco.Community.SmartRedirectSuggester/Client`, run:
 
 ```bash
 npm run watch
@@ -48,7 +48,7 @@ The test site references the package project directly.
 Typical flow:
 
 1. Restore and build the solution.
-2. Run `src/SmartRedirectSuggester.TestSite`.
+2. Run `src/Umbraco.Community.SmartRedirectSuggester.Demo`.
 3. Open the backoffice.
 4. Create and publish test content.
 5. Trash one or more documents to verify the redirect suggestion flow.

@@ -10,6 +10,24 @@ When an editor trashes one or more published documents, the package can:
 - let the editor confirm, change, or skip each redirect in a modal
 - register the chosen redirects in Umbraco's built-in URL tracker after the trash action completes
 
+## Screenshots
+
+### Suggested redirect for a single trashed document
+
+![Single trash suggested redirects](./screenshots/single-trash-suggested-redirects.png)
+
+### Suggested redirects for a bulk trash action
+
+![Bulk trash suggested redirects](./screenshots/multiple-trashes-suggested-redirects.png)
+
+### Changing one redirect target during a bulk trash action
+
+![Change redirect target in bulk action](./screenshots/change-redirect-for-individual-in-multiple.png)
+
+### Resulting redirects in Umbraco management
+
+![Redirect management](./screenshots/redirect-management.png)
+
 ## What problem it solves
 
 Umbraco can automatically create redirects for some content moves and renames, but trashing content removes URLs without creating replacement redirects.
@@ -54,4 +72,5 @@ If neither `UmbAI_Search` nor `Umb_Content` is available, the package still work
 ## Documentation
 
 - [Installation and configuration](./installation.md)
+- [Development](./development.md)
 - [NuGet package readme](./README_nuget.md)

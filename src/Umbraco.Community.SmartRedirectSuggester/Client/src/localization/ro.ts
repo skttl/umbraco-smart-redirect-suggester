@@ -1,0 +1,32 @@
+export default {
+  smartRedirectSuggester: {
+    modal_singleHeadline: "Creați o redirecționare pentru această pagină?",
+    modal_bulkHeadline: "Creați redirecționări pentru {0} pagini?",
+    modal_trashWithoutRedirect: "Mută în coș fără redirecționare",
+    modal_submitSingleRedirect: "Mută în coș și creează redirecționare",
+    modal_submitMultipleRedirects: "Mută în coș și creează {0} redirecționări",
+    modal_loadFailed: "Sugestiile nu au putut fi încărcate. Puteți muta în continuare în coș fără a crea redirecționări.",
+    modal_noSuggestions: "Nu au fost găsite sugestii de redirecționare pentru conținutul selectat.",
+    modal_singleDescription: "{0} va fi mutat în coș. Alegeți unde ar trebui să fie redirecționați vizitatorii.",
+    modal_noAutomaticSuggestions: "Nu au fost găsite sugestii automate.",
+    modal_pickedContent: "Conținut selectat",
+    modal_manuallyPicked: "Selectat manual",
+    modal_bulkDescription: "{0} pagini sunt pe punctul de a fi mutate în coș. Confirmați sau modificați ținta de redirecționare sugerată pentru fiecare.",
+    modal_tablePage: "Pagină",
+    modal_tableRedirectTo: "Redirecționează către",
+    modal_pageOf: "Pagina {0} din {1}",
+    modal_trashedContent: "Conținut șters",
+    modal_noRedirect: "Fără redirecționare",
+    modal_selectedContent: "Conținut selectat",
+    modal_chooseRedirectTarget: "Alegeți ținta redirecționării",
+    modal_currentManualSelection: "Selecția manuală curentă",
+    notification_redirectCreatedHeadline: "Redirecționare creată",
+    notification_redirectCreatedSingle: "1 redirecționare a fost adăugată în urmărirea URL.",
+    notification_redirectCreatedMultiple: "{0} redirecționări au fost adăugate în urmărirea URL.",
+    notification_redirectNotCreatedHeadline: "Redirecționarea nu a fost creată",
+    notification_redirectNotCreatedMessage: "Documentul a fost mutat în coș, dar redirecționarea nu a putut fi înregistrată. O puteți adăuga manual în Redirect URL Management.",
+    manifest_entityActionName: "Acțiune document Smart Trash",
+    manifest_entityBulkActionName: "Acțiune în masă document Smart Trash",
+    manifest_modalName: "Smart Redirect Suggester - fereastră sugestie redirecționare"
+  }
+};

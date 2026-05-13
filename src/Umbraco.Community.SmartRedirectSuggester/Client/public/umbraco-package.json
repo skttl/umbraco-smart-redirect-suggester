@@ -1,0 +1,14 @@
+{
+  "id": "Umbraco.Community.SmartRedirectSuggester",
+  "name": "Umbraco.Community.SmartRedirectSuggester",
+  "version": "0.0.0",
+  "allowTelemetry": true,
+  "extensions": [
+    {
+      "name": "Smart Redirect Suggester Bundle",
+      "alias": "SmartRedirectSuggester.Bundle",
+      "type": "bundle",
+      "js": "/App_Plugins/Umbraco.Community.SmartRedirectSuggester/smart-redirect-suggester.js"
+    }
+  ]
+}

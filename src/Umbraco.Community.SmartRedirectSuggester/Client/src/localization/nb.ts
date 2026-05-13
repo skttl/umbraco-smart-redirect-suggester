@@ -1,0 +1,32 @@
+export default {
+  smartRedirectSuggester: {
+    modal_singleHeadline: "Opprette en videresending for denne siden?",
+    modal_bulkHeadline: "Opprette videresendinger for {0} sider?",
+    modal_trashWithoutRedirect: "Flytt til papirkurven uten videresending",
+    modal_submitSingleRedirect: "Flytt til papirkurven og opprett videresending",
+    modal_submitMultipleRedirects: "Flytt til papirkurven og opprett {0} videresendinger",
+    modal_loadFailed: "Forslag kunne ikke lastes inn. Du kan fortsatt flytte til papirkurven uten å opprette videresendinger.",
+    modal_noSuggestions: "Ingen videresendingsforslag ble funnet for det valgte innholdet.",
+    modal_singleDescription: "{0} blir flyttet til papirkurven. Velg hvor besøkende skal videresendes.",
+    modal_noAutomaticSuggestions: "Ingen automatiske forslag funnet.",
+    modal_pickedContent: "Valgt innhold",
+    modal_manuallyPicked: "Valgt manuelt",
+    modal_bulkDescription: "{0} sider er i ferd med å bli flyttet til papirkurven. Bekreft eller endre foreslått videresendingsmål for hver av dem.",
+    modal_tablePage: "Side",
+    modal_tableRedirectTo: "Videresend til",
+    modal_pageOf: "Side {0} av {1}",
+    modal_trashedContent: "Slettet innhold",
+    modal_noRedirect: "Ingen videresending",
+    modal_selectedContent: "Valgt innhold",
+    modal_chooseRedirectTarget: "Velg videresendingsmål",
+    modal_currentManualSelection: "Nåværende manuelle valg",
+    notification_redirectCreatedHeadline: "Videresending opprettet",
+    notification_redirectCreatedSingle: "1 videresending ble lagt til URL-sporingen.",
+    notification_redirectCreatedMultiple: "{0} videresendinger ble lagt til URL-sporingen.",
+    notification_redirectNotCreatedHeadline: "Videresending ble ikke opprettet",
+    notification_redirectNotCreatedMessage: "Dokumentet ble flyttet til papirkurven, men videresendingen kunne ikke registreres. Du kan legge den til manuelt i Redirect URL Management.",
+    manifest_entityActionName: "Smart Trash dokumenthandling",
+    manifest_entityBulkActionName: "Smart Trash dokument-massehandling",
+    manifest_modalName: "Smart Redirect Suggester - modal for videresendingsforslag"
+  }
+};

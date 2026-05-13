@@ -1,0 +1,32 @@
+export default {
+  smartRedirectSuggester: {
+    modal_singleHeadline: "Criar um redirecionamento para esta página?",
+    modal_bulkHeadline: "Criar redirecionamentos para {0} páginas?",
+    modal_trashWithoutRedirect: "Mover para a lixeira sem redirecionamento",
+    modal_submitSingleRedirect: "Mover para a lixeira e criar redirecionamento",
+    modal_submitMultipleRedirects: "Mover para a lixeira e criar {0} redirecionamentos",
+    modal_loadFailed: "Não foi possível carregar as sugestões. Você ainda pode mover para a lixeira sem criar redirecionamentos.",
+    modal_noSuggestions: "Nenhuma sugestão de redirecionamento foi encontrada para o conteúdo selecionado.",
+    modal_singleDescription: "{0} será movido para a lixeira. Escolha para onde os visitantes devem ser redirecionados.",
+    modal_noAutomaticSuggestions: "Nenhuma sugestão automática encontrada.",
+    modal_pickedContent: "Conteúdo selecionado",
+    modal_manuallyPicked: "Selecionado manualmente",
+    modal_bulkDescription: "{0} páginas estão prestes a ser movidas para a lixeira. Confirme ou altere o destino de redirecionamento sugerido para cada uma.",
+    modal_tablePage: "Página",
+    modal_tableRedirectTo: "Redirecionar para",
+    modal_pageOf: "Página {0} de {1}",
+    modal_trashedContent: "Conteúdo excluído",
+    modal_noRedirect: "Sem redirecionamento",
+    modal_selectedContent: "Conteúdo selecionado",
+    modal_chooseRedirectTarget: "Escolha o destino do redirecionamento",
+    modal_currentManualSelection: "Seleção manual atual",
+    notification_redirectCreatedHeadline: "Redirecionamento criado",
+    notification_redirectCreatedSingle: "1 redirecionamento foi adicionado ao rastreador de URL.",
+    notification_redirectCreatedMultiple: "{0} redirecionamentos foram adicionados ao rastreador de URL.",
+    notification_redirectNotCreatedHeadline: "Redirecionamento não criado",
+    notification_redirectNotCreatedMessage: "O documento foi movido para a lixeira, mas o redirecionamento não pôde ser registrado. Você pode adicioná-lo manualmente em Redirect URL Management.",
+    manifest_entityActionName: "Ação de documento Smart Trash",
+    manifest_entityBulkActionName: "Ação em massa de documento Smart Trash",
+    manifest_modalName: "Smart Redirect Suggester - modal de sugestão de redirecionamento"
+  }
+};

@@ -1,0 +1,32 @@
+export default {
+  smartRedirectSuggester: {
+    modal_singleHeadline: "Opret en viderestilling for denne side?",
+    modal_bulkHeadline: "Opret viderestillinger for {0} sider?",
+    modal_trashWithoutRedirect: "Slet uden viderestilling",
+    modal_submitSingleRedirect: "Slet og opret viderestilling",
+    modal_submitMultipleRedirects: "Slet og opret {0} viderestillinger",
+    modal_loadFailed: "Forslag kunne ikke indlæses. Du kan stadig slette uden at oprette viderestillinger.",
+    modal_noSuggestions: "Der blev ikke fundet nogen forslag til viderestillinger for det valgte indhold.",
+    modal_singleDescription: "{0} bliver flyttet til papirkurven. Vælg, hvor besøgende skal viderestilles til.",
+    modal_noAutomaticSuggestions: "Ingen automatiske forslag fundet.",
+    modal_pickedContent: "Valgt indhold",
+    modal_manuallyPicked: "Valgt manuelt",
+    modal_bulkDescription: "{0} sider er ved at blive flyttet til papirkurven. Bekræft eller ændr det foreslåede viderestillingsmål for hver af dem.",
+    modal_tablePage: "Side",
+    modal_tableRedirectTo: "Viderestil til",
+    modal_pageOf: "Side {0} af {1}",
+    modal_trashedContent: "Slettet indhold",
+    modal_noRedirect: "Ingen viderestilling",
+    modal_selectedContent: "Valgt indhold",
+    modal_chooseRedirectTarget: "Vælg viderestillingsmål",
+    modal_currentManualSelection: "Nuværende manuelle valg",
+    notification_redirectCreatedHeadline: "Viderestilling oprettet",
+    notification_redirectCreatedSingle: "1 viderestilling blev tilføjet til URL-trackeren.",
+    notification_redirectCreatedMultiple: "{0} viderestillinger blev tilføjet til URL-trackeren.",
+    notification_redirectNotCreatedHeadline: "Viderestilling blev ikke oprettet",
+    notification_redirectNotCreatedMessage: "Dokumentet blev slettet, men viderestillingen kunne ikke registreres. Du kan tilføje den manuelt i Redirect URL Management.",
+    manifest_entityActionName: "Smart Trash dokumenthandling",
+    manifest_entityBulkActionName: "Smart Trash dokument-massehandling",
+    manifest_modalName: "Smart Redirect Suggester - forslag til viderestilling"
+  }
+};

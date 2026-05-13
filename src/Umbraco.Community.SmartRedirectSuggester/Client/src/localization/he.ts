@@ -1,0 +1,32 @@
+export default {
+  smartRedirectSuggester: {
+    modal_singleHeadline: "ליצור הפניה עבור הדף הזה?",
+    modal_bulkHeadline: "ליצור הפניות עבור {0} דפים?",
+    modal_trashWithoutRedirect: "העבר לסל המיחזור ללא הפניה",
+    modal_submitSingleRedirect: "העבר לסל המיחזור וצור הפניה",
+    modal_submitMultipleRedirects: "העבר לסל המיחזור וצור {0} הפניות",
+    modal_loadFailed: "לא ניתן היה לטעון את ההצעות. עדיין אפשר להעביר לסל המיחזור בלי ליצור הפניות.",
+    modal_noSuggestions: "לא נמצאו הצעות להפניה עבור התוכן שנבחר.",
+    modal_singleDescription: "{0} יועבר לסל המיחזור. בחרו לאן יש להפנות את המבקרים.",
+    modal_noAutomaticSuggestions: "לא נמצאו הצעות אוטומטיות.",
+    modal_pickedContent: "תוכן שנבחר",
+    modal_manuallyPicked: "נבחר ידנית",
+    modal_bulkDescription: "{0} דפים עומדים לעבור לסל המיחזור. אשרו או שנו את יעד ההפניה המוצע עבור כל אחד מהם.",
+    modal_tablePage: "דף",
+    modal_tableRedirectTo: "הפניה אל",
+    modal_pageOf: "עמוד {0} מתוך {1}",
+    modal_trashedContent: "תוכן שנמחק",
+    modal_noRedirect: "ללא הפניה",
+    modal_selectedContent: "תוכן שנבחר",
+    modal_chooseRedirectTarget: "בחרו יעד הפניה",
+    modal_currentManualSelection: "בחירה ידנית נוכחית",
+    notification_redirectCreatedHeadline: "ההפניה נוצרה",
+    notification_redirectCreatedSingle: "הפניה אחת נוספה למעקב ה-URL.",
+    notification_redirectCreatedMultiple: "{0} הפניות נוספו למעקב ה-URL.",
+    notification_redirectNotCreatedHeadline: "ההפניה לא נוצרה",
+    notification_redirectNotCreatedMessage: "המסמך הועבר לסל המיחזור, אך לא ניתן היה לרשום את ההפניה. אפשר להוסיף אותה ידנית ב-Redirect URL Management.",
+    manifest_entityActionName: "פעולת מסמך Smart Trash",
+    manifest_entityBulkActionName: "פעולה מרוכזת למסמכי Smart Trash",
+    manifest_modalName: "Smart Redirect Suggester - חלון הצעת הפניה"
+  }
+};

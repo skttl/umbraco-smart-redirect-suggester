@@ -1,0 +1,32 @@
+export default {
+  smartRedirectSuggester: {
+    modal_singleHeadline: "Créer une redirection pour cette page ?",
+    modal_bulkHeadline: "Créer des redirections pour {0} pages ?",
+    modal_trashWithoutRedirect: "Mettre à la corbeille sans redirection",
+    modal_submitSingleRedirect: "Mettre à la corbeille et créer une redirection",
+    modal_submitMultipleRedirects: "Mettre à la corbeille et créer {0} redirections",
+    modal_loadFailed: "Impossible de charger les suggestions. Vous pouvez toujours mettre à la corbeille sans créer de redirections.",
+    modal_noSuggestions: "Aucune suggestion de redirection n'a été trouvée pour le contenu sélectionné.",
+    modal_singleDescription: "{0} sera déplacé dans la corbeille. Choisissez vers où les visiteurs doivent être redirigés.",
+    modal_noAutomaticSuggestions: "Aucune suggestion automatique trouvée.",
+    modal_pickedContent: "Contenu sélectionné",
+    modal_manuallyPicked: "Sélectionné manuellement",
+    modal_bulkDescription: "{0} pages vont être déplacées dans la corbeille. Confirmez ou modifiez la destination de redirection proposée pour chacune.",
+    modal_tablePage: "Page",
+    modal_tableRedirectTo: "Rediriger vers",
+    modal_pageOf: "Page {0} sur {1}",
+    modal_trashedContent: "Contenu supprimé",
+    modal_noRedirect: "Aucune redirection",
+    modal_selectedContent: "Contenu sélectionné",
+    modal_chooseRedirectTarget: "Choisir la destination de redirection",
+    modal_currentManualSelection: "Sélection manuelle actuelle",
+    notification_redirectCreatedHeadline: "Redirection créée",
+    notification_redirectCreatedSingle: "1 redirection a été ajoutée au suivi d'URL.",
+    notification_redirectCreatedMultiple: "{0} redirections ont été ajoutées au suivi d'URL.",
+    notification_redirectNotCreatedHeadline: "Redirection non créée",
+    notification_redirectNotCreatedMessage: "Le document a été déplacé dans la corbeille, mais la redirection n'a pas pu être enregistrée. Vous pouvez l'ajouter manuellement dans Redirect URL Management.",
+    manifest_entityActionName: "Action de document Smart Trash",
+    manifest_entityBulkActionName: "Action groupée de document Smart Trash",
+    manifest_modalName: "Smart Redirect Suggester - fenêtre de suggestion de redirection"
+  }
+};

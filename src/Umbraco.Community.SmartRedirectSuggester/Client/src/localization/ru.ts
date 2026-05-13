@@ -1,0 +1,32 @@
+export default {
+  smartRedirectSuggester: {
+    modal_singleHeadline: "Создать перенаправление для этой страницы?",
+    modal_bulkHeadline: "Создать перенаправления для {0} страниц?",
+    modal_trashWithoutRedirect: "Переместить в корзину без перенаправления",
+    modal_submitSingleRedirect: "Переместить в корзину и создать перенаправление",
+    modal_submitMultipleRedirects: "Переместить в корзину и создать {0} перенаправлений",
+    modal_loadFailed: "Не удалось загрузить предложения. Вы все равно можете переместить в корзину без создания перенаправлений.",
+    modal_noSuggestions: "Для выбранного содержимого не найдено предложений перенаправления.",
+    modal_singleDescription: "{0} будет перемещено в корзину. Выберите, куда перенаправлять посетителей.",
+    modal_noAutomaticSuggestions: "Автоматические предложения не найдены.",
+    modal_pickedContent: "Выбранное содержимое",
+    modal_manuallyPicked: "Выбрано вручную",
+    modal_bulkDescription: "{0} страниц будут перемещены в корзину. Подтвердите или измените предложенную цель перенаправления для каждой из них.",
+    modal_tablePage: "Страница",
+    modal_tableRedirectTo: "Перенаправить на",
+    modal_pageOf: "Страница {0} из {1}",
+    modal_trashedContent: "Удаленное содержимое",
+    modal_noRedirect: "Без перенаправления",
+    modal_selectedContent: "Выбранное содержимое",
+    modal_chooseRedirectTarget: "Выберите цель перенаправления",
+    modal_currentManualSelection: "Текущий ручной выбор",
+    notification_redirectCreatedHeadline: "Перенаправление создано",
+    notification_redirectCreatedSingle: "1 перенаправление добавлено в отслеживание URL.",
+    notification_redirectCreatedMultiple: "{0} перенаправлений добавлено в отслеживание URL.",
+    notification_redirectNotCreatedHeadline: "Перенаправление не создано",
+    notification_redirectNotCreatedMessage: "Документ был перемещен в корзину, но перенаправление не удалось зарегистрировать. Вы можете добавить его вручную в Redirect URL Management.",
+    manifest_entityActionName: "Действие документа Smart Trash",
+    manifest_entityBulkActionName: "Массовое действие документа Smart Trash",
+    manifest_modalName: "Smart Redirect Suggester - окно предложения перенаправления"
+  }
+};

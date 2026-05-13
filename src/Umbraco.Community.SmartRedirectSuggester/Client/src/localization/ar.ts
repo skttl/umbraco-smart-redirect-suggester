@@ -1,0 +1,32 @@
+export default {
+  smartRedirectSuggester: {
+    modal_singleHeadline: "إنشاء إعادة توجيه لهذه الصفحة؟",
+    modal_bulkHeadline: "إنشاء إعادات توجيه لـ {0} صفحات؟",
+    modal_trashWithoutRedirect: "نقل إلى سلة المحذوفات بدون إعادة توجيه",
+    modal_submitSingleRedirect: "نقل إلى سلة المحذوفات وإنشاء إعادة توجيه",
+    modal_submitMultipleRedirects: "نقل إلى سلة المحذوفات وإنشاء {0} إعادات توجيه",
+    modal_loadFailed: "تعذر تحميل الاقتراحات. لا يزال بإمكانك نقل العناصر إلى سلة المحذوفات بدون إنشاء إعادات توجيه.",
+    modal_noSuggestions: "لم يتم العثور على اقتراحات إعادة توجيه للمحتوى المحدد.",
+    modal_singleDescription: "سيتم نقل {0} إلى سلة المحذوفات. اختر إلى أين يجب إعادة توجيه الزوار.",
+    modal_noAutomaticSuggestions: "لم يتم العثور على اقتراحات تلقائية.",
+    modal_pickedContent: "المحتوى المحدد",
+    modal_manuallyPicked: "تم اختياره يدويًا",
+    modal_bulkDescription: "سيتم نقل {0} صفحات إلى سلة المحذوفات. أكد أو غيّر هدف إعادة التوجيه المقترح لكل صفحة.",
+    modal_tablePage: "الصفحة",
+    modal_tableRedirectTo: "إعادة التوجيه إلى",
+    modal_pageOf: "الصفحة {0} من {1}",
+    modal_trashedContent: "المحتوى المحذوف",
+    modal_noRedirect: "بدون إعادة توجيه",
+    modal_selectedContent: "المحتوى المحدد",
+    modal_chooseRedirectTarget: "اختر هدف إعادة التوجيه",
+    modal_currentManualSelection: "التحديد اليدوي الحالي",
+    notification_redirectCreatedHeadline: "تم إنشاء إعادة التوجيه",
+    notification_redirectCreatedSingle: "تمت إضافة إعادة توجيه واحدة إلى متتبع عناوين URL.",
+    notification_redirectCreatedMultiple: "تمت إضافة {0} من إعادات التوجيه إلى متتبع عناوين URL.",
+    notification_redirectNotCreatedHeadline: "لم يتم إنشاء إعادة التوجيه",
+    notification_redirectNotCreatedMessage: "تم نقل المستند إلى سلة المحذوفات، لكن تعذر تسجيل إعادة التوجيه. يمكنك إضافتها يدويًا في إدارة عناوين URL المعاد توجيهها.",
+    manifest_entityActionName: "إجراء المستند Smart Trash",
+    manifest_entityBulkActionName: "إجراء Smart Trash الجماعي للمستندات",
+    manifest_modalName: "Smart Redirect Suggester - نافذة اقتراح إعادة التوجيه"
+  }
+};

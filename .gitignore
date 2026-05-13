@@ -360,3 +360,9 @@ src/.idea
 
 .env.local
 .claude/settings.local.json
+src/Umbraco.Community.SmartRedirectSuggester/wwwroot/App_Plugins/
+**/umbraco/Data/
+**/umbraco/Logs/
+**/wwwroot/media/
+**/appsettings-schema*.json
+**/umbraco-package-schema.json

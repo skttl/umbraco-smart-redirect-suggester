@@ -1,0 +1,32 @@
+export default {
+  smartRedirectSuggester: {
+    modal_singleHeadline: "このページのリダイレクトを作成しますか？",
+    modal_bulkHeadline: "{0} ページのリダイレクトを作成しますか？",
+    modal_trashWithoutRedirect: "リダイレクトせずにゴミ箱へ移動",
+    modal_submitSingleRedirect: "ゴミ箱へ移動してリダイレクトを作成",
+    modal_submitMultipleRedirects: "ゴミ箱へ移動して {0} 件のリダイレクトを作成",
+    modal_loadFailed: "候補を読み込めませんでした。リダイレクトを作成せずにゴミ箱へ移動することはできます。",
+    modal_noSuggestions: "選択したコンテンツに対するリダイレクト候補は見つかりませんでした。",
+    modal_singleDescription: "{0} はゴミ箱に移動されます。訪問者の転送先を選択してください。",
+    modal_noAutomaticSuggestions: "自動候補は見つかりませんでした。",
+    modal_pickedContent: "選択したコンテンツ",
+    modal_manuallyPicked: "手動で選択済み",
+    modal_bulkDescription: "{0} ページがゴミ箱に移動されます。各ページの提案されたリダイレクト先を確認または変更してください。",
+    modal_tablePage: "ページ",
+    modal_tableRedirectTo: "リダイレクト先",
+    modal_pageOf: "ページ {0} / {1}",
+    modal_trashedContent: "削除済みコンテンツ",
+    modal_noRedirect: "リダイレクトなし",
+    modal_selectedContent: "選択したコンテンツ",
+    modal_chooseRedirectTarget: "リダイレクト先を選択",
+    modal_currentManualSelection: "現在の手動選択",
+    notification_redirectCreatedHeadline: "リダイレクトが作成されました",
+    notification_redirectCreatedSingle: "1 件のリダイレクトが URL トラッカーに追加されました。",
+    notification_redirectCreatedMultiple: "{0} 件のリダイレクトが URL トラッカーに追加されました。",
+    notification_redirectNotCreatedHeadline: "リダイレクトは作成されませんでした",
+    notification_redirectNotCreatedMessage: "ドキュメントはゴミ箱に移動されましたが、リダイレクトを登録できませんでした。Redirect URL Management で手動追加できます。",
+    manifest_entityActionName: "Smart Trash ドキュメントアクション",
+    manifest_entityBulkActionName: "Smart Trash ドキュメント一括アクション",
+    manifest_modalName: "Smart Redirect Suggester - リダイレクト候補モーダル"
+  }
+};
