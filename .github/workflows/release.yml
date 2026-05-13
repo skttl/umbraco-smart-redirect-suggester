@@ -12,6 +12,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          fetch-tags: true
 
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
@@ -105,7 +108,7 @@ jobs:
         id: changelog
         shell: bash
         run: |
-          PREVIOUS_TAG=$(git tag --sort=-creatordate | grep -v "^${GITHUB_REF_NAME}$" | head -n 1)
+          PREVIOUS_TAG=$(git tag --sort=-creatordate | grep -vx "${GITHUB_REF_NAME}" | head -n 1 || true)
           if [ -n "$PREVIOUS_TAG" ]; then
             CHANGELOG=$(git log "$PREVIOUS_TAG..${GITHUB_REF_NAME}" --pretty=format:'- %s')
           else
